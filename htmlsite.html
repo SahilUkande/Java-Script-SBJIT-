@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<style type="text/css">
+		
+	</style>
+
+<form method="post" onclick="getdata()">
+	<label>First Number</label><input type="Number" id="Number1"><br>
+	<label>second Number</label><input type="Number" id="Number2"><br>
+	<label>Third Number</label><input type="Number" id="Number3"><br>
+	<label>Fourth Number</label><input type="Number" id="Number4"><br>
+	<input type="submit">
+
+</form>
+
+<h3 id="demo" onclick="myFunction()">Click me to change my color.</h3>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").style.color = "red";
+}
+</script>
+ 
+    <script type="text/javascript">
+    	function getdata() {
+    		let num1=document.getElementsByid('Number1').value;
+    		let num2=document.getElementsByid('Number2').value;
+    		let num3=document.getElementsByid('Number3').value;
+    		let num4=document.getElementsByid('Number4').value;
+
+    		alert(num1);
+    		alert(num2);
+    		alert(num3);
+    		alert(num4);
+
+    	}
+    </script> 
+
+
+</body>
+</html> 
